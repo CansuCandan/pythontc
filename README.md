@@ -1,15 +1,14 @@
 # Python.tc Sitesi Çalışmaları
 
 
-Ubuntu 17.04
-
-Python3.6
-
-Django 1.11.7
+1. Ubuntu 17.04
+2. Python3.6
+3. Django 1.11.7
 
 
 ## Pip Paketleri:
 
+```python
 certifi==2017.11.5
 
 chardet==3.0.4
@@ -51,7 +50,7 @@ ufw==0.35
 unattended-upgrades==0.1
 
 urllib3==1.22
-
+```
 
 
 
