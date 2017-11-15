@@ -7,6 +7,6 @@ def anasayfa(request):
 
 def gitle(request):
     import subprocess
-    process = subprocess.Popen(["git", "pull", "origin", "master"], stdout=subprocess.PIPE)
+    process = subprocess.Popen(["cd /home/muslu/django/pythontc", "git", "pull", "origin", "master"], stdout=subprocess.PIPE)
     output = process.communicate()[0]
     return HttpResponse(output)
