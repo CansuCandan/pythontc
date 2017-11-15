@@ -1,8 +1,8 @@
 # Python.tc Sitesi Çalışmaları
 
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
-- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
+
+
+<p align="center"><img src="http://mkds.la/img/logo2x.png"></p>
 
 1. Ubuntu 17.04
 2. Python3.6
@@ -63,5 +63,3 @@ urllib3==1.22
  wsgi_module (shared)
 ```
 
-
-<p align="center"><img src="http://mkds.la/img/logo2x.png"></p>
