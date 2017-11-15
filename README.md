@@ -1,8 +1,8 @@
 # Python.tc Sitesi Çalışmaları
 
-<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">http://python.tc</span>
+<span style="color: #f2cf4a; font-family: Babas; font-size: 4em;">http://python.tc</span>
 
-1. Ubuntu 17.04
+1. <span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">Ubuntu 17.04</span>
 2. Python3.6
 3. Pip3.6
 * certifi==2017.11.5
