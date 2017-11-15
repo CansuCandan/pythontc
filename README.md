@@ -4,10 +4,7 @@
 1. Ubuntu 17.04
 2. Python3.6
 3. Django 1.11.7
-
-
-## Pip Paketleri:
-
+4. Pip3.6
 
 ⋅⋅* certifi==2017.11.5
 ⋅⋅* chardet==3.0.4
