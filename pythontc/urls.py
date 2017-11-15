@@ -11,6 +11,7 @@ from blog.views import gitle
 
 urlpatterns = [
                   url(r'^gitle/$', gitle, name='gitle'),
+
                   url(r'^$', TemplateView.as_view(template_name='index.html', content_type='text/html')),
 
                   url(r'^admin/', admin.site.urls),
