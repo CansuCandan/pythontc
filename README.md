@@ -1,8 +1,10 @@
 # Python.tc Sitesi Çalışmaları
 
-<span style="color: #f2cf4a; font-family: Babas; font-size: 4em;">http://python.tc</span>
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
 
-1. <span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">Ubuntu 17.04</span>
+1. Ubuntu 17.04
 2. Python3.6
 3. Pip3.6
 * certifi==2017.11.5
