@@ -6,9 +6,11 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.views.generic import TemplateView
 
+from blog.views import gitle
+
 
 urlpatterns = [
-                  # url(r'^$', anasayfa, name='anasayfa'),
+                  url(r'^gitle/$', gitle, name='gitle'),
                   url(r'^$', TemplateView.as_view(template_name='index.html', content_type='text/html')),
 
                   url(r'^admin/', admin.site.urls),
