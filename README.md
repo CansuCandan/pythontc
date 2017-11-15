@@ -1,5 +1,6 @@
 # Python.tc Sitesi Çalışmaları
 
+<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">http://python.tc</span>
 
 1. Ubuntu 17.04
 2. Python3.6
