@@ -1,0 +1,15 @@
+body {
+    background-color: #5d73f0;
+}
+
+h1 {
+    color: #f08080;
+}
+
+p {
+    background-color: #d4ee00;
+}
+
+p.highlight {
+    background: yellow;
+}

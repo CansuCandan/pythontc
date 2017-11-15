@@ -1,0 +1,10 @@
+##echo "flush_all" | nc -q 2 localhost 11211
+find /home/muslu/django/ -name '*.pyc' -exec rm {} \;
+/etc/init.d/apache2 restart
+#touch /home/muslu/django/katoptrik/katoptrik/wsgi.py
+#touch /var/cache/mod_pagespeed/cache.flush
+cat /dev/null > /home/muslu/django/djangoLog.log
+clear
+echo "Log Bekleniyor"
+date +"%T"
+tail -f /home/muslu/django/djangoLog.log

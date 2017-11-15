@@ -1,0 +1,38 @@
+
+[Wed Nov 15 11:52:26.690075 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564] Internal Server Error: /
+[Wed Nov 15 11:52:26.690136 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564] Traceback (most recent call last):
+[Wed Nov 15 11:52:26.690148 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]   File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 41, in inner
+[Wed Nov 15 11:52:26.690156 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]     response = get_response(request)
+[Wed Nov 15 11:52:26.690164 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]   File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 217, in _get_response
+[Wed Nov 15 11:52:26.690173 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]     response = self.process_exception_by_middleware(e, request)
+[Wed Nov 15 11:52:26.690182 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]   File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 215, in _get_response
+[Wed Nov 15 11:52:26.690193 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]     response = response.render()
+[Wed Nov 15 11:52:26.690202 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]   File "/usr/local/lib/python3.6/dist-packages/django/template/response.py", line 107, in render
+[Wed Nov 15 11:52:26.690212 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]     self.content = self.rendered_content
+[Wed Nov 15 11:52:26.690222 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]   File "/usr/local/lib/python3.6/dist-packages/django/template/response.py", line 82, in rendered_content
+[Wed Nov 15 11:52:26.690231 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]     template = self.resolve_template(self.template_name)
+[Wed Nov 15 11:52:26.690239 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]   File "/usr/local/lib/python3.6/dist-packages/django/template/response.py", line 64, in resolve_template
+[Wed Nov 15 11:52:26.690248 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]     return select_template(template, using=self.using)
+[Wed Nov 15 11:52:26.690257 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]   File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 53, in select_template
+[Wed Nov 15 11:52:26.690266 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564]     raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+[Wed Nov 15 11:52:26.690280 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564] django.template.exceptions.TemplateDoesNotExist: index.html
+[Wed Nov 15 11:52:26.690301 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43564] 
+[Wed Nov 15 11:57:56.585668 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 209.126.136.4:53654] Invalid HTTP_HOST header: '185.122.201.240'. You may need to add '185.122.201.240' to ALLOWED_HOSTS.
+[Wed Nov 15 12:01:25.923661 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924] Internal Server Error: /
+[Wed Nov 15 12:01:25.923747 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924] Traceback (most recent call last):
+[Wed Nov 15 12:01:25.923762 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]   File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 41, in inner
+[Wed Nov 15 12:01:25.923770 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]     response = get_response(request)
+[Wed Nov 15 12:01:25.923779 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]   File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 217, in _get_response
+[Wed Nov 15 12:01:25.923828 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]     response = self.process_exception_by_middleware(e, request)
+[Wed Nov 15 12:01:25.923839 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]   File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 215, in _get_response
+[Wed Nov 15 12:01:25.923846 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]     response = response.render()
+[Wed Nov 15 12:01:25.923853 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]   File "/usr/local/lib/python3.6/dist-packages/django/template/response.py", line 107, in render
+[Wed Nov 15 12:01:25.923860 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]     self.content = self.rendered_content
+[Wed Nov 15 12:01:25.923867 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]   File "/usr/local/lib/python3.6/dist-packages/django/template/response.py", line 82, in rendered_content
+[Wed Nov 15 12:01:25.923876 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]     template = self.resolve_template(self.template_name)
+[Wed Nov 15 12:01:25.923884 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]   File "/usr/local/lib/python3.6/dist-packages/django/template/response.py", line 64, in resolve_template
+[Wed Nov 15 12:01:25.923891 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]     return select_template(template, using=self.using)
+[Wed Nov 15 12:01:25.923926 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]   File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 53, in select_template
+[Wed Nov 15 12:01:25.923938 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924]     raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+[Wed Nov 15 12:01:25.923952 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924] django.template.exceptions.TemplateDoesNotExist: index.html
+[Wed Nov 15 12:01:25.923971 2017] [wsgi:error] [pid 20238:tid 140109459846912] [remote 78.187.60.13:43924] 
