@@ -43,7 +43,7 @@ class Kullanicilar(models.Model):
 
 
     def __str__(self):
-        return '%s' % (self.adsoyad)
+        return '%s - %s' % (self.adsoyad, self.puan)
 
 
     class Meta:

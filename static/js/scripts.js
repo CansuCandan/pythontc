@@ -1,4 +1,6 @@
 $(document).ready(function () {
+
+
     $("#p1").text("Merhaba");
 
 
