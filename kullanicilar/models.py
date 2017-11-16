@@ -10,7 +10,7 @@ cinsiyet_listesi = (('erkek', 'Erkek'), ('kadin', 'Kadın'), ('belirtilmedi', 'B
 
 
 class Statuler(models.Model):
-    baslik          = models.Model(_('Başlık'))
+    baslik          = models.CharField(_('Başlık'))
     maxpuan         = models.PositiveIntegerField(_('Max Puan'), default=1000)
     minpuan         = models.PositiveIntegerField(_('Min Puan'), default=500)
 
