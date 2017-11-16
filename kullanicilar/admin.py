@@ -6,14 +6,14 @@ from kullanicilar.models import Kullanicilar, Statuler
 
 
 class StatulerAdmin(admin.ModelAdmin):
-    list_display = ('baslik', 'maxpuan', 'minpuan')
-    ordering = ('baslik',)
+    list_display        = ('baslik', 'maxpuan', 'minpuan')
+    ordering            = ('baslik',)
 
 
 class KullanicilarAdmin(admin.ModelAdmin):
-    list_display = ('avatar_goster', 'durum', 'adsoyad', 'email', 'cinsiyet', 'statu', 'sehir', 'kayittarihi')
-    list_display_links = list_display
-    ordering = ('-kayittarihi', 'durum')
+    list_display        = ('avatar_goster', 'durum', 'adsoyad', 'email', 'cinsiyet', 'statu', 'sehir', 'kayittarihi')
+    list_display_links  = list_display
+    ordering            = ('-kayittarihi', 'durum')
 
 
     class Media:

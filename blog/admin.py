@@ -6,16 +6,16 @@ from blog.models import Kategoriler, Makaleler
 
 
 class KategorilerAdmin(admin.ModelAdmin):
-    list_display = ('baslik',)
-    prepopulated_fields = {"slug": ("baslik",)}
-    ordering = ('baslik',)
+    list_display            = ('baslik',)
+    prepopulated_fields     = {"slug": ("baslik",)}
+    ordering                = ('baslik',)
 
 
 class MakalelerAdmin(admin.ModelAdmin):
-    prepopulated_fields = {"slug": ("baslik",)}
-    list_display = ('durum', 'kategoriler', 'okumasuresi', 'yazar', 'baslik', 'kayittarihi')
-    list_display_links = list_display
-    ordering = ('-kayittarihi', 'durum')
+    prepopulated_fields     = {"slug": ("baslik",)}
+    list_display            = ('durum', 'kategoriler', 'okumasuresi', 'yazar', 'baslik', 'kayittarihi')
+    list_display_links      = list_display
+    ordering                = ('-kayittarihi', 'durum')
 
 
     class Media:
