@@ -72,7 +72,7 @@ WSGI_APPLICATION        = 'pythontc.wsgi.application'
 
 STATIC_URL              = '/static/'
 STATIC_ROOT             = BASE_DIR + "/static/"
-STATICFILES_DIRS        = (os.path.join(BASE_DIR, "static"),)
+# STATICFILES_DIRS        = (os.path.join(BASE_DIR, "static"),)
 
 SECRET_KEY              = '9=y%o0io74up&jd_!qq_1f=6))asu$j5#h8iasdasdasascdasda6&sx2tep7tejt)'
 ROOT_URLCONF            = 'pythontc.urls'
