@@ -10,7 +10,7 @@ cinsiyet_listesi = (('erkek', 'Erkek'), ('kadin', 'Kadın'), ('belirtilmedi', 'B
 
 
 class Statuler(models.Model):
-    baslik          = models.CharField(_('Başlık'))
+    baslik          = models.CharField(_('Başlık'), max_length=100, help_text=_(u"En fazla 100 karakter olmalı."))
     maxpuan         = models.PositiveIntegerField(_('Max Puan'), default=1000)
     minpuan         = models.PositiveIntegerField(_('Min Puan'), default=500)
 
@@ -33,8 +33,8 @@ class Kullanicilar(models.Model):
     hakkinda        = models.TextField(_('Hakkında'), blank=True, null=True)
     puan            = models.IntegerField(default=50)
     suannerede      = models.CharField(_('Şu an nerede?'), max_length=255, blank=True, null=True)
-    cinsiyet        = models.CharField(_('Cinsiyet'), choices=cinsiyet_listesi, default='belirtilmedi')
-    ulke            = models.CharField(_('Ülke'))
+    cinsiyet        = models.CharField(_('Cinsiyet'), choices=cinsiyet_listesi, default='belirtilmedi', max_length=10)
+    ulke            = models.CharField(_('Ülke'), max_length=100)
     sehir           = models.CharField(_('Şehir'), max_length=120)
     yas             = models.PositiveIntegerField()
     statu           = models.ForeignKey(Statuler, verbose_name=_('Statü'))
