@@ -13,9 +13,12 @@ chardet==3.0.4
 command-not-found==0.3
 distro-info===0.14build1
 Django==1.11.7
+django-grappelli==2.10.1
 idna==2.6
 language-selector==0.1
 mysqlclient==1.3.12
+olefile==0.44
+Pillow==4.3.0
 pyasn1==0.3.7
 pygobject==3.22.0
 python-apt==1.4.0b2
