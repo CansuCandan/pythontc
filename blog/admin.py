@@ -19,7 +19,7 @@ class MakalelerAdmin(admin.ModelAdmin):
     list_display            = ('durum', 'kategoriler', 'okumasuresi', 'yazar', 'baslik', 'kayittarihi')
     list_display_links      = list_display
     ordering                = ('-kayittarihi', 'durum')
-    filter_vertical         = ('kategori',)
+    filter_horizontal       = ('kategori',)
 
     class Media:
         js = [
