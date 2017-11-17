@@ -11,6 +11,7 @@ DEBUG                   = True
 APPEND_SLASH            = True
 
 INSTALLED_APPS          =   [
+                            'grappelli',
                             'django.contrib.admin',
                             'django.contrib.auth',
                             'django.contrib.contenttypes',

@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from django.contrib import admin
 
 from blog.models import Kategoriler, Makaleler
@@ -9,9 +7,6 @@ class KategorilerAdmin(admin.ModelAdmin):
     list_display            = ('baslik',)
     prepopulated_fields     = {"slug": ("baslik",)}
     ordering                = ('baslik',)
-
-
-
 
 
 class MakalelerAdmin(admin.ModelAdmin):
@@ -36,6 +31,7 @@ class MakalelerAdmin(admin.ModelAdmin):
         if request.user.is_superuser:
             return True
         return False
+
 
 admin.site.register(Kategoriler, KategorilerAdmin)
 admin.site.register(Makaleler, MakalelerAdmin)
