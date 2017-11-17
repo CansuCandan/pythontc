@@ -4,6 +4,37 @@
 
 <p align="center"><img src="http://mkds.la/img/logo2x.png"></p>
 
+
+Linux için termianlde kısa yollar
+```sh
+nano ~/.bash_aliases
+```
+```sh
+alias kur='sudo apt-get install -y'
+alias guncelle='sudo apt-get update && sudo apt-get upgrade -y'
+alias sil='sudo apt-get purge -y'
+alias dj_="python3 manage.py"
+alias dj_m="python3 manage.py migrate"
+alias dj_mm="python3 manage.py makemigrations"
+alias dj_mmm="python3 manage.py makemigrations && python3 manage.py migrate"
+alias dj_mmr="python3 manage.py makemigrations && python3 manage.py migrate && python3 manage.py runserver 0.0.0.0:8000"
+alias dj_shell="python3 manage.py shell"
+alias dj_run="python3 manage.py runserver 0.0.0.0:8000"
+alias dj_app="python3 manage.py startapp"
+alias dj_cs="python3 manage.py collectstatic"
+alias dj_su="python3 manage.py createsuperuser"
+alias tc='cd /home/muslu/django/pythontc/'
+alias ev='cd /home/muslu/'
+alias python3='/usr/bin/python3.6'
+alias python='/usr/bin/python3.6'
+```
+```
+source ~/.bash_aliases
+```
+
+
+
+
 1. Ubuntu 17.04
 2. Python3.6
 3. Pip3.6
