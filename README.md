@@ -5,7 +5,7 @@
 <p align="center"><img src="http://mkds.la/img/logo2x.png"></p>
 
 
-Linux için termianlde kısa yollar
+**Linux için termianlde kısa yollar**
 ```sh
 nano ~/.bash_aliases
 ```
