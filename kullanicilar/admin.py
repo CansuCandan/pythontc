@@ -11,7 +11,7 @@ class StatulerAdmin(admin.ModelAdmin):
 
 
 class KullanicilarAdmin(admin.ModelAdmin):
-    list_display        = ('avatar_goster', 'durum', 'adsoyad', 'email', 'cinsiyet', 'statu', 'sehir', 'kayittarihi')
+    list_display        = ('avatar_goster', 'durum', 'adsoyad', 'email', 'cinsiyet', 'sehir', 'kayittarihi')
     list_display_links  = list_display
     ordering            = ('-kayittarihi', 'durum')
 
